@@ -50,7 +50,7 @@ param(
     [string]$TenantId,
     [string]$ClientId,
     [string]$ClientSecret,
-    [string]$RulesUrl = "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/Artifacts/DetectionRules/rules.json"
+    [string]$RulesUrl = "https://raw.githubusercontent.com/tmp-etc/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/Artifacts/DetectionRules/rules.json"
 )
 
 $ErrorActionPreference = "Stop"

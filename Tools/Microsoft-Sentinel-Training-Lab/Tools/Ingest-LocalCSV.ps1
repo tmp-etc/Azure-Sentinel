@@ -48,7 +48,7 @@ param(
     [Parameter(Mandatory = $true)]
     [string]$WorkspaceName,
 
-    [string]$IngestScriptUrl = "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/Artifacts/Scripts/IngestCSV.ps1",
+    [string]$IngestScriptUrl = "https://raw.githubusercontent.com/tmp-etc/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/Artifacts/Scripts/IngestCSV.ps1",
 
     [switch]$SkipCustom,
 

@@ -83,7 +83,7 @@
                                                   }
                    },
     "variables":  {
-                      "_artifactsLocation":  "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/",
+                      "_artifactsLocation":  "https://raw.githubusercontent.com/tmp-etc/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/",
                       "automationAccountName":  "[concat('sentineltraining', uniqueString(resourceGroup().id))]",
                       "scheduleName":  "[concat('IngestTrainingTelemetryOnce-', uniqueString(resourceGroup().id, deployment().name))]"
                   },

@@ -5,7 +5,7 @@ param(
 
     [string]$WorkspaceName,
 
-    [string]$RepoBaseUrl = "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/Artifacts"
+    [string]$RepoBaseUrl = "https://raw.githubusercontent.com/tmp-etc/Azure-Sentinel/master/Tools/Microsoft-Sentinel-Training-Lab/Artifacts"
 )
 
 $ErrorActionPreference = "Stop"
