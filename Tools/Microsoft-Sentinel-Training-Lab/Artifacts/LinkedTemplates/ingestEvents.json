@@ -24,7 +24,7 @@
     },
     "functions": [],
     "variables": {
-        "automationAccountName": "[concat('sentineltraining', uniqueString(resourceGroup().id))]",
+        "automationAccountName": "sentineltrainingdil5oz7kxap3k",
         "runbookName": "IngestTrainingTelemetry",
         "scheduleName": "IngestTrainingTelemetryOnce"
     },
