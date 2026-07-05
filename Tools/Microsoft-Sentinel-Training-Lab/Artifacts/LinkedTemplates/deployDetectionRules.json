@@ -16,7 +16,7 @@
         }
     },
     "variables": {
-        "automationAccountName": "[concat('sentineldetections', uniqueString(resourceGroup().id))]",
+        "automationAccountName": "sentineldetectionsdil5oz7kxap3k",
         "runbookName": "DeployDetectionRules",
         "scheduleName": "[concat('DeployDetectionRulesOnce-', uniqueString(resourceGroup().id, parameters('scheduleStartTime')))]"
     },
